@@ -1,0 +1,12 @@
+[project]
+name = "iscstack"
+version = "1.0.1"
+description = "ISCStack - Authority is a Runtime Property"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Ibrahim Salama"}]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
