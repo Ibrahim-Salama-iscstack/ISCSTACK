@@ -1,11 +1,10 @@
 """
-MLROI™ - Risk & Outcome Intelligence
-Part of AIControlStack™
+MLROI - Risk & Outcome Intelligence
+Calculates risk score before execution.
 """
 class MLROI:
-    def evaluate_risk(self, decision: dict) -> float:
-        risk_map = {"delete_db": 0.95, "restart_service": 0.6, "create_campaign": 0.1, "analyze_data": 0.05}
-        return risk_map.get(decision.get("action",""), 0.3)
-    def evaluate(self, decision):
-        score = self.evaluate_risk(decision)
-        return {"risk_score": score, "level": "HIGH" if score>0.7 else "MEDIUM" if score>0.3 else "LOW"}
+    def evaluate_risk(self, decision: dict) -> dict:
+        env = decision.get("env", "dev")
+        intent = decision.get("intent", "")
+        risk = 0.9 if env == "prod" and "delete" in intent else 0.1
+        return {"risk_score": risk, "requires_governance": risk > 0.5}
