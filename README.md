@@ -1,3 +1,9 @@
+[![PyPI version](https://badge.fury.io/py/iscstack.svg)](https://pypi.org/project/iscstack/)
+[![Python Version](https://img.shields.io/pypi/pyversions/iscstack.svg)](https://pypi.org/project/iscstack/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+```bash
+pip install iscstack==1.0.1
 # ISCStack™ - The Intelligent Systems Control Stack
 
 Official Reference Implementation
