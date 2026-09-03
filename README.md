@@ -1,4 +1,6 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22278861.svg)](https://doi.org/10.5281/zenodo.22278861)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22278861.svg)](https://doi.org/10.5281/zenodo.22278861) [![pypi package](https://img.shields.io/badge/pypi-1.0.1-blue)](https://pypi.org/project/iscstack/) [![python](https://img.shields.io/badge/python-3-blue)](https://pypi.org/project/iscstack/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**DOI:** https://doi.org/10.5281/zenodo.22278861 | **Zenodo:** https://zenodo.org/records/22278861 | **Website:** https://iscstack.com
 [![PyPI version](https://badge.fury.io/py/iscstack.svg)](https://pypi.org/project/iscstack/)
 [![Python Version](https://img.shields.io/pypi/pyversions/iscstack.svg)](https://pypi.org/project/iscstack/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
