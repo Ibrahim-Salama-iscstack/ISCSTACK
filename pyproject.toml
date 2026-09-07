@@ -4,24 +4,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "iscstack"
-version = "1.0.4"
+version = "1.0.5"
 description = "ISCStack - The Intelligent Systems Control Stack - Authority is a Runtime Property"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
-authors = [
-    {name = "Ibrahim Salama", email = "ibrahim.salama@domims.com"}
-]
-keywords = ["ai", "governance", "control", "iscstack", "constitution"]
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
+authors = [{name="Ibrahim Salama"}]
+dependencies = []
 
-[project.urls]
-Homepage = "https://iscstack.com"
-Repository = "https://github.com/Ibrahim-Salama-iscstack/ISCSTACK"
+[tool.setuptools]
+package-dir = {"" = "."}
 
 [tool.setuptools.packages.find]
-include = ["iscstack*"]
+include = ["iscstack", "iscstack.*"]
