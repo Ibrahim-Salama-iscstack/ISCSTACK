@@ -1,6 +1,6 @@
 [project]
 name = "iscstack"
-version = "1.0.1"
+version = "1.0.2"
 description = "ISCStack - Authority is a Runtime Property"
 readme = "README.md"
 requires-python = ">=3.9"
