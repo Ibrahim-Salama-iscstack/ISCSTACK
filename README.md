@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ```bash
-pip install iscstack==1.0.1
+pip install iscstack==1.0.2
 # ISCStack™ - The Intelligent Systems Control Stack
 
 Official Reference Implementation
